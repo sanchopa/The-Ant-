@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using console_project.Model;
-using console_project.Model.Group;
+using TheAntGame.Model;
+using TheAntGame.Model.Group;
 
 namespace console_projec.Model
 {

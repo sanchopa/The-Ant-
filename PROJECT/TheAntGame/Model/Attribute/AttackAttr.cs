@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace console_project.Model.Attribute
+namespace TheAntGame.Model.Attribute
 {
     class AttackAttr: UnitAttribute
     {

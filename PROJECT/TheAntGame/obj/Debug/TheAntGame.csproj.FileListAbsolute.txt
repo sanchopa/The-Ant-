@@ -1,0 +1,6 @@
+c:\users\thinkpad\documents\visual studio 2013\Projects\TheAntGame\TheAntGame\bin\Debug\TheAntGame.exe.config
+c:\users\thinkpad\documents\visual studio 2013\Projects\TheAntGame\TheAntGame\obj\Debug\TheAntGame.csprojResolveAssemblyReference.cache
+c:\users\thinkpad\documents\visual studio 2013\Projects\TheAntGame\TheAntGame\bin\Debug\TheAntGame.exe
+c:\users\thinkpad\documents\visual studio 2013\Projects\TheAntGame\TheAntGame\bin\Debug\TheAntGame.pdb
+c:\users\thinkpad\documents\visual studio 2013\Projects\TheAntGame\TheAntGame\obj\Debug\TheAntGame.exe
+c:\users\thinkpad\documents\visual studio 2013\Projects\TheAntGame\TheAntGame\obj\Debug\TheAntGame.pdb

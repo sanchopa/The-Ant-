@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace console_project.Model
+namespace TheAntGame.Tools
 {
-    public interface ISufferDamage
+    public interface IUnitIdProvider
     {
-        public void SufferDamage(double damge);
+        string GetNextUnitId();
     }
 }

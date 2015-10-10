@@ -41,12 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Attribute\AttackAttr.cs" />
+    <Compile Include="Model\Attribute\HealthAttr.cs" />
+    <Compile Include="Model\Attribute\UnitAttribute.cs" />
+    <Compile Include="Model\Group\Interfaces\IDamageDivider.cs" />
+    <Compile Include="Model\Group\UnitGroupe.cs" />
+    <Compile Include="Model\Unit\Interfaces\IAttacker.cs" />
+    <Compile Include="Model\Unit\Interfaces\IMortal.cs" />
+    <Compile Include="Model\Unit\Interfaces\ISufferDamage.cs" />
+    <Compile Include="Model\Unit\Unit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\IUnitIdProvider.cs" />
+    <Compile Include="Tools\UnitIdProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

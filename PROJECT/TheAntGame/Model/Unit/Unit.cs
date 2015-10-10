@@ -1,13 +1,14 @@
-﻿using console_project.Model.Attribute;
-using console_project.Model;
-using console_project.Tools;
+﻿using TheAntGame.Model.Attribute;
+using TheAntGame.Model;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TheAntGame.Tools;
 
-namespace console_project.Model
+namespace TheAntGame.Model
 {
     public class Unit: IAttacker, ISufferDamage, IMortal
     {

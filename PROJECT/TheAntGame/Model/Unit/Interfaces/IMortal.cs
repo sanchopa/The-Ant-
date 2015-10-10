@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace console_project.Model
+namespace TheAntGame.Model
 {
     public interface IMortal
     {
-        public void Die();
+        void Die();
     }
 }

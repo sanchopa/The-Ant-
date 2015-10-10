@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace console_project.Model.Attribute
+namespace TheAntGame.Model.Attribute
 {
-    class UnitAttribute
+    public class UnitAttribute
     {
         public string name { get; set; }
         public double maxValue { get; set; }
