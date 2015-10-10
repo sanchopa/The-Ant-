@@ -9,3 +9,4 @@ Debug
 
 *.suo
 >>>>>>> origin/master
+/PROJECT/*.suo
