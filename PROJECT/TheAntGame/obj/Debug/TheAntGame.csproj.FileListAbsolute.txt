@@ -4,3 +4,6 @@ c:\users\thinkpad\documents\visual studio 2013\Projects\TheAntGame\TheAntGame\bi
 c:\users\thinkpad\documents\visual studio 2013\Projects\TheAntGame\TheAntGame\bin\Debug\TheAntGame.pdb
 c:\users\thinkpad\documents\visual studio 2013\Projects\TheAntGame\TheAntGame\obj\Debug\TheAntGame.exe
 c:\users\thinkpad\documents\visual studio 2013\Projects\TheAntGame\TheAntGame\obj\Debug\TheAntGame.pdb
+C:\Users\THINKPAD\Documents\GitHub\The-Ant-\PROJECT\TheAntGame\bin\Debug\TheAntGame.exe.config
+C:\Users\THINKPAD\Documents\GitHub\The-Ant-\PROJECT\TheAntGame\obj\Debug\TheAntGame.exe
+C:\Users\THINKPAD\Documents\GitHub\The-Ant-\PROJECT\TheAntGame\obj\Debug\TheAntGame.pdb
