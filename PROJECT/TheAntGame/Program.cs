@@ -10,6 +10,7 @@ namespace TheAntGame
     {
         static void Main(string[] args)
         {
+            Console.ReadLine();
         }
     }
 }
