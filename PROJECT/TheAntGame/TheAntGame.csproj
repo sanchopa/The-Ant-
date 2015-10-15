@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="Model\Attribute\AttackAttr.cs" />
     <Compile Include="Model\Attribute\HealthAttr.cs" />
-    <Compile Include="Model\Attribute\UnitAttribute.cs" />
+    <Compile Include="Model\Group\UnitAttribute.cs" />
     <Compile Include="Model\Group\Interfaces\IDamageDivider.cs" />
     <Compile Include="Model\Group\UnitGroupe.cs" />
     <Compile Include="Model\Unit\Interfaces\IAttacker.cs" />
