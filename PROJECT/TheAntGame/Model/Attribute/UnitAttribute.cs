@@ -8,9 +8,9 @@ namespace TheAntGame.Model.Attribute
 {
     public class UnitAttribute
     {
-        public string name { get; set; }
-        public double maxValue { get; set; }
-        public double currentValue { get; set; }
+        public string Name { get; set; }
+        public double MaxValue { get; set; }
+        public double CurrentValue { get; set; }
 
         public UnitAttribute()
         {

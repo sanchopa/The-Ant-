@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace TheAntGame.Model.Attribute
 {
-    class HealthAttr : UnitAttribute
+    class CapacityAttr: UnitAttribute
     {
-        public HealthAttr(double maxValue)
+        public CapacityAttr(double maxValue)
         {
-            this.Name = "Health";
+            this.Name = "Capacity";
             this.MaxValue = maxValue;
+            this.CurrentValue = 0;
         }
     }
 }

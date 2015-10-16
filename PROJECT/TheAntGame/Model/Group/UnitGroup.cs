@@ -21,9 +21,7 @@ namespace console_projec.Model
         {
             this.unites = new List<Unit>();
             this.unites.AddRange(unites);
-            this._divider = damageDivider;
-
-            
+            this._divider = damageDivider;            
         }
 
 
@@ -39,7 +37,7 @@ namespace console_projec.Model
             double summ = 0;
             foreach (var Unit in unites)
             {
-                summ += Unit.GetAttribute("Attack").maxValue;
+                summ += Unit.GetAttribute("Attack").MaxValue;
             }
             return summ;
         }

@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace TheAntGame.Model.Attribute
 {
-    class HealthAttr : UnitAttribute
+    class SpeedAttr: UnitAttribute
     {
-        public HealthAttr(double maxValue)
+        public SpeedAttr(double unitSpeed)
         {
-            this.Name = "Health";
-            this.MaxValue = maxValue;
+            this.Name = "Speed";
+            this.MaxValue = MaxValue;
+            this.CurrentValue = MaxValue;
         }
+
     }
 }

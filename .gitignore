@@ -10,3 +10,6 @@ Debug
 *.suo
 >>>>>>> origin/master
 /PROJECT/*.suo
+*.cache
+PROJECT/TheAntGame.v12.suo
+PROJECT/TheAntGame.v12.suo
