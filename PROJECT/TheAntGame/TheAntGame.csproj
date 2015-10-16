@@ -42,11 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Attribute\AttackAttr.cs" />
+    <Compile Include="Model\Attribute\CapacityAttr.cs" />
     <Compile Include="Model\Attribute\HealthAttr.cs" />
+    <Compile Include="Model\Attribute\SpeedAttr.cs" />
     <Compile Include="Model\Attribute\UnitAttribute.cs" />
     <Compile Include="Model\Group\Interfaces\IDamageDivider.cs" />
-    <Compile Include="Model\Group\UnitGroupe.cs" />
+    <Compile Include="Model\Group\UnitGroup.cs" />
+    <Compile Include="Model\Resource\AntMeal.cs" />
+    <Compile Include="Model\Resource\AntResource.cs" />
     <Compile Include="Model\Unit\Interfaces\IAttacker.cs" />
+    <Compile Include="Model\Unit\Interfaces\ICarryResource.cs" />
     <Compile Include="Model\Unit\Interfaces\IMortal.cs" />
     <Compile Include="Model\Unit\Interfaces\ISufferDamage.cs" />
     <Compile Include="Model\Unit\Unit.cs" />
