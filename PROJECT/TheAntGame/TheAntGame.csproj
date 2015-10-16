@@ -44,8 +44,12 @@
     <Compile Include="Model\Attribute\AttackAttr.cs" />
     <Compile Include="Model\Attribute\CapacityAttr.cs" />
     <Compile Include="Model\Attribute\HealthAttr.cs" />
+<<<<<<< HEAD
     <Compile Include="Model\Attribute\SpeedAttr.cs" />
     <Compile Include="Model\Attribute\UnitAttribute.cs" />
+=======
+    <Compile Include="Model\Group\UnitAttribute.cs" />
+>>>>>>> origin/master
     <Compile Include="Model\Group\Interfaces\IDamageDivider.cs" />
     <Compile Include="Model\Group\UnitGroup.cs" />
     <Compile Include="Model\Resource\AntMeal.cs" />
