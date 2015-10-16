@@ -10,8 +10,8 @@ namespace TheAntGame.Model.Attribute
     {
         public HealthAttr(double maxValue)
         {
-            this.Name = "Health";
-            this.MaxValue = maxValue;
+            this.name = "Health";
+            this.maxValue = maxValue;
         }
     }
 }

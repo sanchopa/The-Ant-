@@ -23,18 +23,18 @@ namespace TheAntGame.Model
 
         public void Attack(ISufferDamage threat)
         {
-            threat.SufferDamage(this.attributes["Atack"].MaxValue);
+            threat.SufferDamage(this.attributes["Atack"].maxValue);
         }
 
         public void SufferDamage(double damage)
         {
-            if ((this.attributes["Health"].CurrentValue - damage) > 0 )
+            if ((this.attributes["Health"].currentValue - damage) > 0 )
             {
-                this.attributes["Health"].CurrentValue -= damage;                
+                this.attributes["Health"].currentValue -= damage;                
             }
             else
             {
-                this.attributes["Health"].CurrentValue = 0;
+                this.attributes["Health"].currentValue = 0;
                 this.Die();
             }
         }

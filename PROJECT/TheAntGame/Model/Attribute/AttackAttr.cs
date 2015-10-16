@@ -10,8 +10,8 @@ namespace TheAntGame.Model.Attribute
     {
         public AttackAttr(double maxValue)
         {
-            this.Name = "Attack";
-            this.MaxValue = maxValue;
+            this.name = "Attack";
+            this.maxValue = maxValue;
         }
 
     }
