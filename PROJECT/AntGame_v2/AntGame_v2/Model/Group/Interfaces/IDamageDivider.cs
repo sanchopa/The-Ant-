@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using TheAntGame.Model;
 
-namespace TheAntGame.Model.Group
+namespace AntGame_v2.Model
 {
     public interface IDamageDivider
     {

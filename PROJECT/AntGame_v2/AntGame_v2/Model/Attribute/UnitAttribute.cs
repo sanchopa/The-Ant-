@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheAntGame.Model.Attribute
+namespace AntGame_v2.Model
 {
     public class UnitAttribute
     {

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheAntGame.Model
+namespace AntGame_v2.Model
 {
-    public interface ISufferDamage
+    public interface IAttacker 
     {
-        void SufferDamage(double damge);
+        void Attack(ISufferDamage threat);
     }
 }

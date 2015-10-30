@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TheAntGame.Model.Resource;
 
-namespace TheAntGame.Model.Interfaces
+
+namespace AntGame_v2.Model
 {
     public interface ICarryResource
     {

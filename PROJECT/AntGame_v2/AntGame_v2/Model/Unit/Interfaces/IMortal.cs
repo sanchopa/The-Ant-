@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheAntGame.Tools
+namespace AntGame_v2.Model
 {
-    public interface IUnitIdProvider
+    public interface IMortal
     {
-        string GetNextUnitId();
+        void Die();
     }
 }

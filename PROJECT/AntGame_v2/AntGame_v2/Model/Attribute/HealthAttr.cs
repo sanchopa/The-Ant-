@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheAntGame.Model.Attribute
+namespace AntGame_v2.Model
 {
-    class AttackAttr: UnitAttribute
+    class HealthAttr : UnitAttribute
     {
-        public AttackAttr(double maxValue)
+        public HealthAttr(double maxValue)
         {
-            this.name = "Attack";
+            this.name = "Health";
             this.maxValue = maxValue;
         }
-
     }
 }

@@ -1,6 +1,4 @@
 ﻿using TheAntGame.Model.Attribute;
-using TheAntGame.Model;
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TheAntGame.Tools;
 
-namespace TheAntGame.Model
+namespace AntGame_v2.Model
 {
     public class Unit: IAttacker, ISufferDamage, IMortal
     {

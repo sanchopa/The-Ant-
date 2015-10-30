@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using TheAntGame.Model;
-using TheAntGame.Model.Group;
 
-namespace console_projec.Model
+namespace AntGame_v2.Model
 {
     class UnitGroup: ISufferDamage, IAttacker
     {

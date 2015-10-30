@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TheAntGame")]
+[assembly: AssemblyTitle("AntGame_v2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("StartSoft")]
-[assembly: AssemblyProduct("TheAntGame")]
+[assembly: AssemblyProduct("AntGame_v2")]
 [assembly: AssemblyCopyright("Copyright © StartSoft 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("50fe0ec3-7e6d-4ae8-b349-4d5720aa54bd")]
+[assembly: Guid("51a1a6f5-3c15-4059-9e13-c27ae66c8674")]
 
 // Version information for an assembly consists of the following four values:
 //
