@@ -1,10 +1,10 @@
-﻿using TheAntGame.Model.Attribute;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TheAntGame.Tools;
+
 
 namespace AntGame_v2.Model
 {
