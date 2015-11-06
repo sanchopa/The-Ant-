@@ -43,6 +43,12 @@
   <ItemGroup>
     <Compile Include="Model\Attribute\AttackAttr.cs" />
     <Compile Include="Model\Attribute\HealthAttr.cs" />
+    <Compile Include="Model\Common\EventTypes.cs" />
+    <Compile Include="Model\Common\IEventEmitter.cs" />
+    <Compile Include="Model\Common\IEventListener.cs" />
+    <Compile Include="Model\Engine\IObserver.cs" />
+    <Compile Include="Model\Engine\ITicker.cs" />
+    <Compile Include="Model\Engine\Ticker.cs" />
     <Compile Include="Model\Group\Interfaces\IDamageDivider.cs" />
     <Compile Include="Model\Attribute\UnitAttribute.cs" />
     <Compile Include="Model\Group\UnitGroupe.cs" />
@@ -60,7 +66,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Model\Forest\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

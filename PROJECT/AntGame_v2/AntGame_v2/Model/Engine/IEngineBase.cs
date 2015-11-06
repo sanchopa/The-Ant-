@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace AntGame_v2.Model.Engine
 {
-    public class Ticker
+    public interface IEngineActor
     {
-        public void Tick()
-        {
-
-        }
+        void Init();
+        void Update();
+        void Render();
+        void Destroy();
     }
 }
