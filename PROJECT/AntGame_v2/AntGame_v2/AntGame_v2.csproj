@@ -43,12 +43,11 @@
   <ItemGroup>
     <Compile Include="Model\Attribute\AttackAttr.cs" />
     <Compile Include="Model\Attribute\HealthAttr.cs" />
-    <Compile Include="Model\Common\EventTypes.cs" />
+    <Compile Include="Model\Common\AntEvent.cs" />
     <Compile Include="Model\Common\IEventEmitter.cs" />
     <Compile Include="Model\Common\IEventListener.cs" />
-    <Compile Include="Model\Engine\IObserver.cs" />
-    <Compile Include="Model\Engine\ITicker.cs" />
-    <Compile Include="Model\Engine\Ticker.cs" />
+    <Compile Include="Model\Engine\AntEnviroment.cs" />
+    <Compile Include="Model\Engine\IEngineBase.cs" />
     <Compile Include="Model\Group\Interfaces\IDamageDivider.cs" />
     <Compile Include="Model\Attribute\UnitAttribute.cs" />
     <Compile Include="Model\Group\UnitGroupe.cs" />

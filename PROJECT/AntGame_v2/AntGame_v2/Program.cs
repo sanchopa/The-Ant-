@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AntGame_v2.Model.Engine;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,18 @@ namespace AntGame_v2
     {
         static void Main(string[] args)
         {
+            AntEnviroment enviroment = new AntEnviroment();
+
+            enviroment.Generate();
+
+            while (true)
+            {
+                foreach (var actor in enviroment.Actors)
+                {
+                    actor.Update();
+                    actor.Render();
+                }
+            }
         }
     }
 }

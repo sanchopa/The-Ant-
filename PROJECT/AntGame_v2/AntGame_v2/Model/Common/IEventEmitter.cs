@@ -10,11 +10,11 @@ namespace AntGame_v2.Model
     {
         private List<IEventListener> listeners;
 
-        public void EmitEvent();
+        abstract public void EmitEvent();
 
-        public void AddListener();
+        abstract public void AddListener();
 
-        public void RemoveListener();
+        abstract public void RemoveListener();
 
 
     }
