@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{00C09BA2-7F2E-4E3E-94FB-18E6A07D1D1B}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{7164F849-89F8-4835-98A8-D80B1B5F201C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AntGame_v2</RootNamespace>
-    <AssemblyName>AntGame_v2</AssemblyName>
+    <RootNamespace>TheAntWindowGame</RootNamespace>
+    <AssemblyName>TheAntWindowGame</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -38,39 +38,42 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Attribute\AttackAttr.cs" />
-    <Compile Include="Model\Attribute\HealthAttr.cs" />
-    <Compile Include="Model\Common\AntEvent.cs" />
-    <Compile Include="Model\Common\IEventEmitter.cs" />
-    <Compile Include="Model\Common\IEventListener.cs" />
-    <Compile Include="Model\Engine\AntEnviroment.cs" />
-    <Compile Include="Model\Forest\Forest.cs" />
-    <Compile Include="Model\Engine\IEngineBase.cs" />
-    <Compile Include="Model\Group\Interfaces\IDamageDivider.cs" />
-    <Compile Include="Model\Attribute\UnitAttribute.cs" />
-    <Compile Include="Model\Group\UnitGroupe.cs" />
-    <Compile Include="Model\Resource\AntFood.cs" />
-    <Compile Include="Model\Resource\AntResource.cs" />
-    <Compile Include="Model\Unit\Interfaces\IEat.cs" />
-    <Compile Include="Model\Unit\Interfaces\IExplorer.cs" />
-    <Compile Include="Model\Unit\Interfaces\IBuilding.cs" />
-    <Compile Include="Model\Unit\Interfaces\IAttacker.cs" />
-    <Compile Include="Model\Unit\Interfaces\ICarryResource.cs" />
-    <Compile Include="Model\Unit\Interfaces\IMortal.cs" />
-    <Compile Include="Model\Unit\Interfaces\ISufferDamage.cs" />
-    <Compile Include="Model\Unit\Interfaces\IFree.cs" />
-    <Compile Include="Model\Unit\Interfaces\IUnitIdProvider.cs" />
-    <Compile Include="Model\Unit\Unit.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

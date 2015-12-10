@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntGame_v2", "AntGame_v2\AntGame_v2.csproj", "{00C09BA2-7F2E-4E3E-94FB-18E6A07D1D1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfApplication1\WpfApplication1.csproj", "{B37839A2-B253-4E9B-893B-98670B2FF765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAntWindowGame", "TheAntWindowGame\TheAntWindowGame.csproj", "{7164F849-89F8-4835-98A8-D80B1B5F201C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{00C09BA2-7F2E-4E3E-94FB-18E6A07D1D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00C09BA2-7F2E-4E3E-94FB-18E6A07D1D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00C09BA2-7F2E-4E3E-94FB-18E6A07D1D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37839A2-B253-4E9B-893B-98670B2FF765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37839A2-B253-4E9B-893B-98670B2FF765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37839A2-B253-4E9B-893B-98670B2FF765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37839A2-B253-4E9B-893B-98670B2FF765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7164F849-89F8-4835-98A8-D80B1B5F201C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7164F849-89F8-4835-98A8-D80B1B5F201C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7164F849-89F8-4835-98A8-D80B1B5F201C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7164F849-89F8-4835-98A8-D80B1B5F201C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,10 +9,23 @@ namespace AntGame_v2.Model.Engine
     public class AntEnviroment
     {
         public IEnumerable<IEngineActor> Actors { get; set; }
+        public Forest forest;
+        
 
         internal void Generate()
         {
-            throw new NotImplementedException();
+            forest = LoadTestForest();            
+        }
+
+        private Forest LoadTestForest()
+        {
+
+            var testForest = new Forest();
+
+
+
+            return testForest;
+
         }
 
     }
