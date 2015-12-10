@@ -54,7 +54,11 @@
     <Compile Include="Model\Group\UnitGroupe.cs" />
     <Compile Include="Model\Resource\AntFood.cs" />
     <Compile Include="Model\Resource\AntResource.cs" />
+    <Compile Include="Model\Unit\AntScout.cs" />
     <Compile Include="Model\Unit\AntWarior.cs" />
+    <Compile Include="Model\Unit\AntWorking.cs" />
+    <Compile Include="Model\Unit\Caterpillar.cs" />
+    <Compile Include="Model\Unit\Cockroach.cs" />
     <Compile Include="Model\Unit\Interfaces\IAttacker.cs" />
     <Compile Include="Model\Unit\Interfaces\ICarryResource.cs" />
     <Compile Include="Model\Unit\Interfaces\IMortal.cs" />
