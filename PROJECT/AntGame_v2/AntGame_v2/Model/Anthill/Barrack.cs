@@ -18,7 +18,7 @@ namespace AntGame_v2.Model.Unit
         public void CreateAnt(Unit unit)
         {
           antCount = GetCountAnt();
-          if( (MONEY >= 25) && (antCount < BuildingLevel * 7)) {//На первом уровне лимит в 7 муравьев. С каждым уровнем приращение по 7.
+          if( (MONEY >= 25) && (antCount < buildingLevel * 7)) {//На первом уровне лимит в 7 муравьев. С каждым уровнем приращение по 7.
             //TODO: Созжание муравья определенного вида и списание ресурсов (стоимость одного муравья 25 едениц)
           }
         }
