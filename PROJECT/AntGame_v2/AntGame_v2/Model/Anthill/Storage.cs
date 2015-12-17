@@ -10,9 +10,9 @@ namespace AntGame_v2.Model.Unit
     {
         Dictionary<string, int> resources { get; set; }//При создании экземпляра класса Муравейник, необходимо в его констркторе заполнить словарь resources четко прописанными видами ресурсов
         
-        public UnitAttribute GetResource(string res)
+        public int GetResource(string res)
         {
-           return this.resources[res];
+           return this.resources[res].Value;
         }
         
         public void UpResource(string res, int count)
