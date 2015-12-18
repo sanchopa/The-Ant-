@@ -65,7 +65,11 @@
     <Compile Include="Model\Unit\Caterpillar.cs" />
     <Compile Include="Model\Unit\Cockroach.cs" />
     <Compile Include="Model\Unit\Interfaces\IAttacker.cs" />
+    <Compile Include="Model\Unit\Interfaces\IBuilding.cs" />
     <Compile Include="Model\Unit\Interfaces\ICarryResource.cs" />
+    <Compile Include="Model\Unit\Interfaces\IEat.cs" />
+    <Compile Include="Model\Unit\Interfaces\iExplorer.cs" />
+    <Compile Include="Model\Unit\Interfaces\IFree.cs" />
     <Compile Include="Model\Unit\Interfaces\IMortal.cs" />
     <Compile Include="Model\Unit\Interfaces\ISufferDamage.cs" />
     <Compile Include="Model\Unit\Interfaces\IUnitIdProvider.cs" />
