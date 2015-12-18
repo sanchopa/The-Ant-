@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AntGame_v2.Model.Unit
 {
-    class AntScout : Unit
+    class AntWarior : Unit
     {
     }
 }
