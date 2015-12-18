@@ -8,7 +8,8 @@ namespace AntGame_v2.Engine
 {
     public abstract class IActor
     {
-        public List<IActor> chldrens;
+        public List<IActor> children;
+        public readonly int Id;
 
         public void Init();
         public void Update();
