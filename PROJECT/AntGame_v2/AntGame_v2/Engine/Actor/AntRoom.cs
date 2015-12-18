@@ -8,6 +8,7 @@ namespace AntGame_v2.Engine.Actor
 {
     public class AntRoom: IActor
     {
+        
         void Update()
         {
 

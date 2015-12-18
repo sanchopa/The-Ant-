@@ -8,6 +8,7 @@ namespace AntGame_v2.Model
 {
     public class Forest
     {
+
         
     }
 }

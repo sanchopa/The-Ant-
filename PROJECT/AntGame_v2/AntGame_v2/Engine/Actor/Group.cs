@@ -20,7 +20,9 @@ namespace AntGame_v2.Engine.Actor
 
         public void Update()
         {
-            throw new NotImplementedException();
+
+
+            _envitoment.
         }
 
         public void Render()

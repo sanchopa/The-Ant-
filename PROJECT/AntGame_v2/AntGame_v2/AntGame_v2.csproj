@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Engine\Actor\Anthill.cs" />
+    <Compile Include="Engine\Actor\AntRoom.cs" />
+    <Compile Include="Engine\Actor\Forest.cs" />
+    <Compile Include="Engine\Actor\Group.cs" />
+    <Compile Include="Engine\Engine.cs" />
     <Compile Include="Model\Attribute\AttackAttr.cs" />
     <Compile Include="Model\Attribute\HealthAttr.cs" />
     <Compile Include="Model\Common\AntEvent.cs" />
@@ -48,7 +53,7 @@
     <Compile Include="Model\Common\IEventListener.cs" />
     <Compile Include="Engine\AntEnviroment.cs" />
     <Compile Include="Model\Forest\Forest.cs" />
-    <Compile Include="Engine\IEngineBase.cs" />
+    <Compile Include="Engine\Actor\IActor.cs" />
     <Compile Include="Model\Group\Interfaces\IDamageDivider.cs" />
     <Compile Include="Model\Attribute\UnitAttribute.cs" />
     <Compile Include="Model\Group\UnitGroupe.cs" />
